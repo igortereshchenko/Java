@@ -40,6 +40,10 @@ public class Person  implements Serializable{
         this.ismarried = ismarried;
     }
 
+    public String toString(){
+         return name;
+    }
+
     public void printPerson(){
         System.out.println("Name: "+name);
         System.out.println("Age: "+age);
